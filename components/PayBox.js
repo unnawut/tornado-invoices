@@ -7,7 +7,7 @@ import TornWrapper from '../method/web3torn';
 const pay = async (invoice) => {
   try {
     let invData = TornWrapper.parseInvoice(invoice)
-    var address = deployments[invData.netId][invData.currency].instanceAddress[invData.amount]
+    var address = deployments['netId' + invData.netId][invData.currency].instanceAddress[invData.amount]
     if (invData.currency == 'eth') {
       await TornWrapper.ensureWallet()
       let torn = await TornWrapper.connectTorn(address)
