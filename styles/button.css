@@ -1,0 +1,25 @@
+.button {
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-align: center;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button.is-fullwidth {
+  width: 100%;
+}
+
+.button.is-primary {
+  background-color: #94febf;
+  border-color: transparent;
+  color: #000403;
+}
+
+.button.is-primary:hover {
+  background-color: #3bf0a1;
+}
