@@ -8,7 +8,7 @@ export default function PayBox() {
 
 
   return (
-    <div class="box">
+    <div className="box">
       <h2>Pay Invoice</h2>
 
       <div>

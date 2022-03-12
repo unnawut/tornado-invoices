@@ -2,12 +2,12 @@ import PrimaryButton from './PrimaryButton'
 
 export default function CreateBox() {
   return (
-    <div class="box">
+    <div className="box">
       <h2>Create Invoice</h2>
 
       <div>Chain: </div>
       <div>
-        <label class="label">Token</label>
+        <label className="label">Token</label>
         <div>
           <select name="token">
             <option value="ETH">ETH</option>
@@ -16,7 +16,7 @@ export default function CreateBox() {
       </div>
 
       <div style={{ marginBottom: '1rem' }}>
-        <label class="label">Amount</label>
+        <label className="label">Amount</label>
         <div>
           <select name="amount">
             <option value="0.1">0.1 ETH</option>

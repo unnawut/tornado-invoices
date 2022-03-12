@@ -17,7 +17,7 @@ export default function Home() {
           Tornado Invoice
         </h1>
 
-        <div class="tabs">
+        <div className="tabs">
           <a onClick={() => setActiveTab(CREATE_TAB)}>Create Invoice</a>
           | <a onClick={() => setActiveTab(PAY_TAB)}>Pay Invoice</a>
         </div>
