@@ -1,4 +1,12 @@
 import PrimaryButton from './PrimaryButton'
+import createInvoice from '../method/invoice'
+
+
+function magic() {
+  var { note, invoice } = createInvoice();
+  alert("can dev disply" + note + invoice)
+}
+
 
 export default function CreateBox() {
   return (
