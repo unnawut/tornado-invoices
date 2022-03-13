@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import PrimaryButton from './PrimaryButton'
 import { deployments } from './tornconfig';
-import TornWrapper from '../method/web3torn';
+import TornWrapper from '../services/web3torn';
 
 
 const pay = async (invoice) => {
