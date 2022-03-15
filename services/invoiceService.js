@@ -1,4 +1,5 @@
 import snarkjs from 'snarkjs'
+import crypto from 'crypto-browserify'
 
 class InvoiceService {
   /** rand stuff  */
